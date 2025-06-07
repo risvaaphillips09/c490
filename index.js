@@ -55,7 +55,7 @@ const router = express.Router();
 
 // Hello World for index page
 app.get('/', function (req, res) {
-    return res.send("Hello World from Indiana, Bloomington!!");
+    return res.send("Hello World from Indiana, Bloomington!");
 
 app.get('/api', function (req, res) {
     return res.send("Fabrikam Bank API");
